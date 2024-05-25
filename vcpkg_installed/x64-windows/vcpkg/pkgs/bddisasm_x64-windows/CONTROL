@@ -1,0 +1,8 @@
+Package: bddisasm
+Version: 1.34.10
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Maintainer: Cristi Anichitei <ianichitei@bitdefender.com>
+Abi: 1301ff5c3f32b7d0d116dbc9063155677d8f7d65ff11ae73a259542faa8c25ae
+Description: bddisasm is a fast, lightweight, x86/x64 instruction decoder and emulator.

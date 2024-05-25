@@ -1,0 +1,17 @@
+x64-windows/
+x64-windows/debug/
+x64-windows/debug/lib/
+x64-windows/debug/lib/modlib.lib
+x64-windows/include/
+x64-windows/include/modlib/
+x64-windows/include/modlib/modlib.h
+x64-windows/lib/
+x64-windows/lib/modlib.lib
+x64-windows/share/
+x64-windows/share/modlib/
+x64-windows/share/modlib/copyright
+x64-windows/share/modlib/vcpkg.spdx.json
+x64-windows/share/modlib/vcpkg_abi_info.txt
+x64-windows/tools/
+x64-windows/tools/modlib/
+x64-windows/tools/modlib/dummyprogram.exe

@@ -1,0 +1,7 @@
+Package: modlib
+Version: 1.0.1
+Depends: bddisasm, vcpkg-msbuild
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e6b0c391cc8d334b820245596ddfebed91d2e946c2f2038a7032627a66a06801
+Description: utilities

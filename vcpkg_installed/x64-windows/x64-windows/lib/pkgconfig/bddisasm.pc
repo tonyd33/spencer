@@ -1,0 +1,20 @@
+prefix=${pcfiledir}/../..
+dir_prefix=${prefix}
+lib=lib
+include=include/bddisasm
+data_dir=share
+
+lib_dir=${dir_prefix}/${lib}
+include_dir=${dir_prefix}/${include}
+
+datarootdir=${dir_prefix}/${data_dir}
+pkgdatadir=${datarootdir}/bddisasm
+
+Name: bddisasm
+Description: "Bitdefender x86 instruction decoder and shellcode emulator"
+URL: https://github.com/bitdefender/bddisasm
+Version: 1.34.10
+
+
+Libs: "-L${lib_dir}" -lbdshemu -lbddisasm
+Cflags: "-I${include_dir}"

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/pkgconf-x64-windows-1.8.0#5-ce2eba7d-56c9-4ff2-989e-e770f0bf5423",
+  "name": "pkgconf:x64-windows@1.8.0#5 7f4595cb41e600f6961c0f854c453a80bd6d982f2dd43b768a88706dfd0e9858",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-1c9ec1978a6b0c2b39c9e9554a96e3e275f7556e"
+    ],
+    "created": "2024-05-24T01:52:14Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "pkgconf",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.8.0#5",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@8848e56b32837456dfb872f6ca3cc9953558d453",
+      "homepage": "https://github.com/pkgconf/pkgconf",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "pkgconf is a program which helps to configure compiler and linker flags for development libraries. It is similar to pkg-config from freedesktop.org.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "pkgconf:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "7f4595cb41e600f6961c0f854c453a80bd6d982f2dd43b768a88706dfd0e9858",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "pkgconf/pkgconf",
+      "downloadLocation": "git+https://github.com/pkgconf/pkgconf@cef30268e1a3f79efd607c26abcf556aa314c9c4",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ea03b81d01521201bdc471a39cdc8b13f9452f7cc78706d5c57056595f3e4e8a3562c022ebb72ce6444f2c7a8dfc778114814ef5064eaef770a70cc294c7f7ee"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/tony/AppData/Local/vcpkg/registries/git-trees/8848e56b32837456dfb872f6ca3cc9953558d453/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ee6f8e309cb0ac6700d8b62816864d66b54c4e2fbf78281abc502290b80ce4a9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/tony/AppData/Local/vcpkg/registries/git-trees/8848e56b32837456dfb872f6ca3cc9953558d453/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d27176647fdd053bc550393484caf220dda7d8115afa9bc8d69183bdff3583f7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
